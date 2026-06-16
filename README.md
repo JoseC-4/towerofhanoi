@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1>Tower of Hanoi</h1>
 
-## Getting Started
+A responsive Tower of Hanoi mini-game built with Next.js, TypeScript, Tailwind CSS, and dnd-kit.
 
-First, run the development server:
+The goal of the game is to move all disks from the first tower to the third tower while following the classic Tower of Hanoi rule: a larger disk cannot be placed on top of a smaller disk.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<h2>Demo</h2>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+https://github.com/user-attachments/assets/16175db0-d33b-4c72-b728-e0c76df3453d
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<h2>Features</h2>
+<ul>
+<li>Interactive drag-and-drop gameplay</li>
+<li>Adjustable disk count</li>
+<li>Move counter</li>
+<li>Reset game button</li>
+<li>Win detection with congratulation message</li>
+<li>Visual highlight when the puzzle is solved</li>
+<li>Responsive dark-themed UI</li>
+<li>Tower of Hanoi move validation</li>
+<li>Tech Stack</li>
+<li>Next.js</li>
+<li>React</li>
+<li>TypeScript</li>
+<li>Tailwind CSS</li>
+<li>dnd-kit</li>
+</ul>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+<h2>What I Practiced</h2>
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project was built to get more comfortable with React and Next.js fundamentals, especially:
+<ul>
+<li>Component structure</li>
+<li>State management with useState</li>
+<li>Rendering lists with .map()</li>
+<li>Passing props between components</li>
+<li>Conditional rendering</li>
+<liConditional styling with Tailwind CSS></li>
+<li>Drag-and-drop behavior with dnd-kit</li>
+<li>Separating game logic from UI components</li>
+</ul>
